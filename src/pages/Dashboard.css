@@ -1,0 +1,387 @@
+
+
+.formblog{
+    background-color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 50px;
+    
+
+}
+.formblog h1{
+    margin-bottom: 50px;
+}
+
+
+.formblog button{
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.formblog textarea {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    height: 200px;
+    width: 650px;
+}
+
+.formblog input{
+    margin-left: 50px;
+    width: 400px;
+}
+
+.subtitulo {
+    margin-bottom: 50px;
+}
+
+.preciohotel{
+    margin-top: 20px;
+    background-color: rgb(246, 254, 194);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 50px;
+}
+
+.preciohotel h1 {
+    margin-bottom: 50px;
+}
+
+.preciohotel button{
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: x-large;
+
+}
+
+.preciohotel input{
+    margin-left: 50px;
+    width: 400px;
+}
+
+.preciohotel label {
+    margin-bottom: 30px;
+}
+
+.roomrates {
+    margin-top: 20px;
+    background-color:aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 50px;
+}
+
+.roomrates h1{
+    margin-bottom: 50px;
+}
+
+.roomrates button{
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.roomrates input {
+    margin-left: 50px;
+    width: 400px;
+}
+
+.roomrates label {
+    margin-bottom: 30px;
+}
+
+.titulohotel {
+    margin-top: 20px;
+    background-color: rgb(246, 254, 194);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 50px;
+}
+
+.titulohotel h1 {
+    margin-bottom: 50px;
+}
+
+.titulohotel button{
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.titulohotel input{
+    margin-left: 60px;
+    width: 400px;
+}
+
+.titulohotel label{
+    margin-bottom: 30px;
+}
+
+.preciocar {
+    margin-top: 20px;
+    background-color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 50px;
+}
+
+.preciocar h1{
+    margin-bottom: 50px;
+}
+
+.preciocar button{
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.preciocar input {
+    margin-left: 60px;
+    width: 400px;
+}
+
+.preciocar label {
+    margin-bottom: 30px;
+}
+
+.pickup {
+    margin-top: 20px;
+    background-color: rgb(246, 254, 194);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 50px;
+}
+
+.pickup h1{
+    margin-bottom: 50px;
+}
+
+.pickup label {
+    margin-bottom: 30px;
+}
+
+.pickup input {
+    margin-left: 60px;
+    width: 400px;
+}
+
+.pickup button{
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.parameters {
+    margin-top: 20px;
+    background-color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 50px;
+}
+
+.parameters h1 {
+    margin-bottom: 50px;
+}
+
+.parameters label {
+    margin-bottom: 30px;
+}
+
+.parameters input{
+    margin-left: 60px;
+    width: 400px;
+}
+
+.parameters button{
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.owner {
+    margin-top: 20px;
+    background-color: rgb(246, 254, 194);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 50px;
+}
+
+.owner h1 {
+    margin-bottom: 50px;
+}
+
+.owner label {
+    margin-bottom: 30px;
+
+}
+
+.owner input {
+    margin-left: 60px;
+    width: 400px;
+}
+
+.owner button{
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.infoknow {
+    margin-top: 20px;
+    background-color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 50px;
+}
+
+.infoknow h1{
+    margin-bottom: 50px;
+}
+
+.infoknow textarea{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    height: 200px;
+    width: 650px;
+}
+
+.infoknow button{
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.descripcion {
+    margin-top: 20px;
+    background-color: rgb(246, 254, 194);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 50px;
+}
+
+.descripcion h1{
+    margin-bottom: 50px;
+}
+
+.descripcion textarea{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    height: 200px;
+    width: 650px;
+}
+
+.descripcion button {
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.carousel {
+    margin-top: 20px;
+    background-color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 50px;
+}
+
+.carousel h1 {
+    margin-bottom: 50px;
+}
+
+.carousel label {
+    margin-bottom: 30px;
+}
+
+.carousel input {
+    margin-left: 60px;
+    width: 400px;
+}
+
+.carousel button{
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+    font-size: x-large;
+}

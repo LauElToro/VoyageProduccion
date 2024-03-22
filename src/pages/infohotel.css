@@ -1,0 +1,43 @@
+.hotel-title {
+  font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #111827;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.hotel-subtitle {
+  font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #6b7280;
+  margin-left: 40px;
+}
+
+.mapa-container {
+  position: relative;
+  top: 250px;
+}
+
+@media (max-width: 720px) {
+  .mapa-container {
+    display: none;
+  }
+}
+
+.info-container {
+  height: 324vh;
+}
+
+.sin-decoracion {
+  text-decoration: none;
+}
