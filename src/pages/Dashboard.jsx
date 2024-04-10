@@ -3,7 +3,7 @@ import BlogForm from "./fetch/fetchBlog";
 import PriceHotelForm from "./fetch/hotelPrice";
 import RoomRatesForm from "./fetch/Roomrates";
 import TituloHotelForm from "./fetch/tituloHotel";
-import PriceCarForm from "./fetch/pricecar.jsx";
+import PriceCarForm from "./fetch/priceCar.jsx";
 import PickupForm from "./fetch/pickUp";
 import ParametersForm from "./fetch/parameters.jsx";
 import Owner from "./fetch/Owner.jsx";
