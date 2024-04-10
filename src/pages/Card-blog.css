@@ -1,0 +1,16 @@
+.imgblog{
+    width: 100%;
+    
+}
+
+.cardBlog {
+    width: 100%;
+    position: relative;
+    max-width: 750px;
+}
+
+@media (max-width: 750px) {
+    .imgblog{
+        width: 80%;
+    }
+}

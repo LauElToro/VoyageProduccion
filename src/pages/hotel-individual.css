@@ -1,0 +1,199 @@
+.H-I-body {
+  height: 190vw;
+  width: 100%;
+}
+
+.H-I-img-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.H-I-columna-img {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.img-hotel-individual1 {
+  border-radius: 10px;
+  width: 600px;
+  height: 500px;
+  &:hover {
+    filter: brightness(90%);
+  }
+  cursor: pointer;
+}
+.img-hotel-individual2 {
+  border-radius: 10px;
+  width: 300px;
+  height: 245px;
+  margin-bottom: 10px;
+  &:hover {
+    filter: brightness(90%);
+  }
+  cursor: pointer;
+}
+
+.precio-hotel {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  position: sticky;
+  top: 100px;
+}
+
+.caracteristicas-hotel {
+  margin-top: 50px;
+  padding: 20px;
+  width: 55vw;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.item-lista {
+  padding-left: 10px;
+}
+
+.lista-room-rates {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(173, 216, 230, 0.2);
+  border-radius: 5px;
+}
+.lista-room-rates2 {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.texto-lista {
+  padding: 15px;
+  font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  color: #4b5563;
+}
+
+.capacityform-H-I-click {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-top-left-radius: 0; /* Sin redondeo en la esquina izquierda superior */
+  border-top-right-radius: 0; /* Redondeo en la esquina derecha superior */
+  border-bottom-right-radius: 20px; /* Redondeo en la esquina derecha inferior */
+  border-bottom-left-radius: 20px;
+  box-shadow: #374151;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.capacityform-H-I {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-top-left-radius: 0; /* Sin redondeo en la esquina izquierda superior */
+  border-top-right-radius: 0; /* Redondeo en la esquina derecha superior */
+  border-bottom-right-radius: 20px; /* Redondeo en la esquina derecha inferior */
+  border-bottom-left-radius: 20px;
+}
+
+
+.Suma-capacity {
+  width: 30px;
+  font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  font-size: 18px;
+  line-height: 28px;
+  color: #111827;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.capacity-container-hotel{
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    position: absolute;
+    background-color: #Fff;
+    z-index: 10;
+    left: 30px;
+}
+.capacity-controls-hotel {
+  display: none;
+}
+
+.capacity-controls-hotel.show {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.Input-capacity{
+  display: flex;
+  align-items: center;
+}
+
+.Suma-capacity{
+margin-left: 5px;
+}
+
+.icon{
+  color: #ccc;
+}
+
+
+@media (max-width: 720px) {
+
+  .H-I-img-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+  }
+
+  .H-I-columna-img {
+    display: none;
+  }
+
+  
+.caracteristicas-hotel {
+  margin-top: 50px;
+  padding: 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.img-hotel-individual1 {
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+  &:hover {
+    filter: brightness(90%);
+  }
+  cursor: pointer;
+}
+
+}

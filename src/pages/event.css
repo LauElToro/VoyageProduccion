@@ -1,0 +1,129 @@
+.event-container {
+  width: 100%;
+  height: 175vw;
+}
+
+.search-event-page {
+  position: absolute;
+  margin-top: 90px;
+}
+
+.body-event {
+  position: absolute;
+  top: 900px;
+  width: 100%;
+}
+
+.title-event {
+  font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  font-style: normal;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #111827;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.subtitle-event {
+  font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #6b7280;
+  padding-bottom: 70px;
+  padding-left: 20px;
+}
+
+.filters-container {
+  display: flex;
+  margin-left: -40px;
+  padding-left: 20px;
+}
+
+.filter-event {
+  padding-right: 20px;
+  border: 1px solid #111827;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  width: auto;
+}
+
+.carrusel-container {
+  margin-top: 50px;
+
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fila {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.capacitycontainer-event {
+  position: absolute;
+  z-index: 7;
+  background-color: white;
+  top: 210px;
+  left: 750px;
+  border-radius: 10px;
+  width: 330px;
+  margin-left: -90px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 720px) {
+  .filters-container {
+    display: flex;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .carrusel-container {
+    margin-top: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .fila {
+    display: grid;
+  }
+
+  .filter-event {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    margin-left: 10px;
+  }
+ 
+  .capacitycontainer-event {
+    position: absolute;
+    z-index: 7;
+    background-color: white;
+    top: 310px;
+    left: 150px;
+    border-radius: 10px;
+    width: 330px;
+    margin-left: -90px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+}
+
