@@ -17,7 +17,7 @@ export const Navbar = ({ isLoggedIn, onLogout }) => {
 
   const handleLogout = async () => {
     try {
-      const response = await fetch("http://localhost:9000/logout", {
+      const response = await fetch("https://voyagelbackend.onrender.com/logout", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
