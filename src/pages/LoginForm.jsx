@@ -120,8 +120,8 @@ const Contenedorform = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 1200px;
-    width: 1800px;
-    height: 100%
+    width: 500px;
+    height: 550px;
   }
 
   label {
