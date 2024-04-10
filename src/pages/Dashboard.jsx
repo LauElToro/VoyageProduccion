@@ -3,13 +3,13 @@ import BlogForm from "./fetch/fetchBlog";
 import PriceHotelForm from "./fetch/hotelPrice";
 import RoomRatesForm from "./fetch/Roomrates";
 import TituloHotelForm from "./fetch/tituloHotel";
-import PriceCarForm from "./fetch/Pricecar.jsx";
+import PriceCarForm from "./fetch/pricecar.jsx";
 import PickupForm from "./fetch/pickUp";
 import ParametersForm from "./fetch/parameters.jsx";
 import Owner from "./fetch/Owner.jsx";
 import InfoKnowForm from "./fetch/infoknow.jsx";
 import DescriptionForm from "./fetch/description.jsx";
-import CarouselForm from "./fetch/carousel.jsx";
+import CarouselForm from "./fetch/Carousel.jsx";
 import "./Dashboard.css";
 import PriceHotelUpdateComponent from "./PUT/fetchPUT/searchDashboard.jsx";
 
