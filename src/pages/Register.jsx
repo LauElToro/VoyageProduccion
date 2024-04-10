@@ -138,7 +138,6 @@ const Contenedorform = styled.div`
 
   form {
     margin-top: 600px;
-    width: 100%;
   }
 
   label {
