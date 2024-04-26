@@ -89,18 +89,21 @@ const LoginForm = ({ setIsAuthenticated }) => {
 export default LoginForm;
 
 const Contenedorform = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #1f2937;
-  width: 100%;
-  font-size: 16px;
-  font-weight: 400;
-  
- 
+display: flex;
+align-items: center;
+justify-content: center;
+color: #1f2937;
+font-style: normal;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
+  BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+  "Noto Color Emoji";
 
-  h1 {
-margin-top: 50px;
+h1 {
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,83 +131,47 @@ form {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   margin-top: 90px;
 }
+}
+label {
+  margin-left: 6px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 0;
+  font-weight: 500;
+}
 
-  label {
-    
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: 500;
+input {
+  height: 40px;
+  width: 420px;
+  margin: 3px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
+}
 
-  input {
-    
-    height: 40px;
-    width: 300px ;
-   
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    &:focus {
-      outline: none;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    }
+input:focus {
+}
+
+.registerbutton {
+  height: 50px;
+  width: 420px;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  color: white;
+  background-color: rgba(51, 60, 135, 1);
+  cursor: pointer;
+  font-weight: 600;
+  &:hover {
+    background-color: rgba(45, 55, 130, 1);
   }
-
-  
-  
-  p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    font-size: 1rem;
-  }
-
-  .registerbutton {
-    margin-top: 50px;
-    
-    margin-bottom: 350px;
-
-    height: 80px;
-    width: 200px;
-    
-    
-    border: 1px solid #ccc;
-    border-radius: 30px;
-    color: white;
-    background-color: rgba(51, 60, 135, 1);
-    cursor: pointer;
-    font-weight: 600;
-    &:hover {
-      background-color: rgba(45, 55, 130, 1);
-    }
-  }
-
-  @media (max-width: 890px) {
-
-    
-    input {
-      height: 40px;
-      width: 300px;
-      margin-left: 50px;
-      
-     
-    }
-
-    p {
-      font-size: 18px;
-      margin-right: 50px;
-
-    }
-
-    .registerbutton {
-    margin-left : 70px;
-      height: 50px;
-      width: 50%;
-    }
-
-  }
+}
 `;
 
 // Styled components for Popup
