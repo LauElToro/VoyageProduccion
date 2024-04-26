@@ -121,7 +121,7 @@ const Contenedorform = styled.div`
     "Noto Color Emoji";
 
   h1 {
-    margin-top: 150px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -136,9 +136,19 @@ const Contenedorform = styled.div`
     color: #111827;
   }
 
-  form {
-    margin-top: 600px;
-  }
+form {
+  width: 100%;
+}
+.form {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffff;
+  border-radius: 50px;
+  position: relative;
+  margin-top: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 90px;
+}
 
   label {
     margin-left: 6px;
