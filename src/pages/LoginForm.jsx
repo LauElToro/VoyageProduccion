@@ -100,29 +100,34 @@ const Contenedorform = styled.div`
  
 
   h1 {
-    margin-bottom: 50px;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
-      BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-      "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-      "Segoe UI Symbol", "Noto Color Emoji";
-    font-style: normal;
-    font-size: 48px;
-    line-height: 55px;
-    font-weight: 600;
-    color: #111827;
-  }
+margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 600;
+  color: #111827;
+}
 
-  form {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1200px;
-    width: 500px;
-    height: 550px;
-  }
+form {
+  width: 100%;
+}
+.form {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffff;
+  border-radius: 50px;
+  position: relative;
+  margin-top: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 90px;
+}
 
   label {
     
