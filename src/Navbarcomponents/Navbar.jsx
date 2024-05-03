@@ -87,6 +87,13 @@ export const Navbar = ({ isLoggedIn, onLogout }) => {
                   </Link>
                   <Link
                     className="itemsmenu"
+                    to="/blog"
+                    state={{ logged: state?.logged }}
+                  >
+                    <div>Blog</div>
+                  </Link>
+                  <Link
+                    className="itemsmenu"
                     to="/Configuracion"
                     state={{ logged: state?.logged }}
                   >
